@@ -8,7 +8,6 @@ import {
     MenuItem,
   
   } from '@chakra-ui/react'
-import ToggleColorMode from "./ToggleColorMode";
 
 const TopNav = ({title ,onOpen}) => {
   return (
@@ -22,7 +21,7 @@ const TopNav = ({title ,onOpen}) => {
         
 
       </Icon>
-     <ToggleColorMode></ToggleColorMode>
+
       
         <Heading ml={112} fontSize={24} >
             {title}
